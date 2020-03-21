@@ -1,0 +1,40 @@
+/*
+ 0 -- 600px:     phone
+ 600 -- 900px:   tablet
+ 900 -- 1200px:  tablet landscape
+ [1200 -- 1800px]
+ 1800:           Big desktop
+
+ 1em = 16px;
+
+
+@mixin respond-phone{
+  @media {max-width: 600px} {@content};
+}
+
+
+$breakpoint argument choices;
+-phone
+- tab-port
+- tab-land
+- big-desktop
+
+
+Base +typography + geeral layout
+*/
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box;
+  font-family: "Open Sans", Verdana, sans-serif; }
+
+body {
+  background: linear-gradient(135deg, white, #fff5f5); }
