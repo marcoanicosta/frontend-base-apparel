@@ -38,3 +38,23 @@ body {
 
 body {
   background: linear-gradient(135deg, white, #fff5f5); }
+
+.header__container-logo {
+  padding: 28px 40px;
+  width: 180px;
+  height: auto; }
+
+.light {
+  font-size: 40px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+  font-weight: 400; }
+
+.heavy {
+  letter-spacing: 8px;
+  text-transform: uppercase;
+  font-weight: 300; }
+
+.heading-1 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 500; }
